@@ -1,0 +1,16 @@
+{
+  "name": "webr",
+  "version": "0.0.1",
+  "description": "WebVR Polyfill as a browser extension + websocket sensor readings",
+  "author": "r",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cardboard-vr-display": "^1.0.16",
+    "webpack": "^4.35.3",
+    "webvr-polyfill": "^0.10.10"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}

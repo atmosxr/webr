@@ -1,0 +1,28 @@
+{
+  "name": "WebR",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Add WebVR support to everything!!!",
+  "author": "r",
+  "homepage_url": "https://atmos.world/",
+  "content_scripts": [
+    {
+      "js": [
+        "injector.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+     "16": "res/icon16.png",
+     "48": "res/icon48.png",
+    "128": "res/icon128.png"
+  }
+}
